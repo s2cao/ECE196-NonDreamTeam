@@ -4,7 +4,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>ECE5 Lab 4</title> 
+    <title>The HypnoGlove Website</title> 
     <meta name="description" content="sketchbook">
     <meta name="author" content="sketchbook">
     <link rel="stylesheet" href="style.css"> <!-- this imports the CSS file. do not remove -->
@@ -29,8 +29,8 @@
 <!--   *********************  INTRO START *********************   --> 
     
     <section class="main">
-      <h2> What this stuff does </h2>
-      <p1> Filling this stuff out later</p1> 
+      <h2> The Dangers of Drowsy Driving </h2>
+      <p1> Excessive Daytime Sleepiness (EDS) is a disorder that affects 20% of the global population. While this may seem like at most an inconvenience in daily life, there are certain aspects that those without this disorder take for granted. When EDS afflicted people are driving, it's common for them to dose off during long periods of monotany, such as a long highway. This results in a lack of focus and dangerous driving. </p1> 
       
       <br><br>
       
@@ -47,6 +47,56 @@
  
       
 <!--   *********************  BUTTONS START *********************   -->
+      <!----------------------------------------  BUTTON 2 ---------------------------------------->
+        
+      <div class ='center'> <!-- we put the buton in a container to center it -->
+        <button type='button' onclick="toggleText2()" class="btn">Welcome to the HypnoGlove!</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive2' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>IMG1 stuff <br> 
+              IMG2 stuff</p2>
+            <br><br>
+          
+          <p class='box2'>
+            More cool stuff
+            <br><br>
+            &emsp; Answer here...
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+      
+      
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText4()" class="btn">How does the HypnoGlove work?</button>
+      </div> <!--end of div class center -->
+            
+      <div class="interactive" id='interactive4' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+            <img src = 'https://lh3.googleusercontent.com/cDleYqDQOF1A8QKv9BTzxZH_XpgxRqxRqu_6GY_PxaEmNLNvf6NASJ6CCfs2EhwlZ0Mo8yabUXbX4uq4_0-GvUDifW1dvzeIrrUn_fO17FSU-Bzvf_L5gkVDOAoExDEgS_dmDUzS=w2400' class='imgmar'>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>Flowchart of the HypnoGlove state</p2>
+           <br><br>
+          <p class='box2'>
+            The Hypnoglove is our solution to driving with EDS. This glove can detect when you are drifting to sleep by measuring fluctuations and abnormailities in the R-R intervals of your heartbeat. When it detects these factors related to drowsiness, it will provide stimuli in the form of blinking lights, sound cues, and vibration to wake the driver*. 
+            <br>
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+          
+      </div> <!-- This is the end of div box1 -->
+      
       
 <!----------------------------------------  BUTTON 1 ---------------------------------------->
       
@@ -80,32 +130,7 @@
         </div> <!-- This is the end of div box1 -->
       </div> <!-- This is the end of div interactive -->
       
-<!----------------------------------------  BUTTON 2 ---------------------------------------->
-        
-      <div class ='center'> <!-- we put the buton in a container to center it -->
-        <button type='button' onclick="toggleText2()" class="btn">Diagram for Hypnoglove</button>
-      </div> <!--end of div class center -->
-      
-      <div class="interactive" id='interactive2' style='display: none'>
-        <div class='box1'>
-          <br>
-          
-            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
-            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
-            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
-            <br>
-            <p2>IMG1 stuff <br> 
-              IMG2 stuff</p2>
-            <br><br>
-          
-          <p class='box2'>
-            More cool stuff
-            <br><br>
-            &emsp; Answer here...
-          </p> <!-- p is paragraph -->
-        </div> <!-- This is the end of div interactive -->
-      </div> <!-- This is the end of div box1 -->
-      
+
 <!----------------------------------------  BUTTON 3 ---------------------------------------->
       
       <div class ='center'>
@@ -134,32 +159,12 @@
       
 <!----------------------------------------  BUTTON 4 ----------------------------------------> 
       
-      <div class ='center'>
-        <button type='button' onclick="toggleText4()" class="btn">Placeholder Button</button>
-      </div> <!--end of div class center -->
-            
-      <div class="interactive" id='interactive4' style='display: none'>
-        <div class='box1'>
-          <br>
-          
-            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
-            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
-            <br>
-            <p2>IMG1 Placeholder text</p2>
-           <br><br>
-          
-          <p class='box2'>
-            Placeholder text
-            <br><br>
-            &emsp; Answer here...
-          </p> <!-- p is paragraph -->
-        </div> <!-- This is the end of div interactive -->
-      </div> <!-- This is the end of div box1 -->
+      
       
 <!----------------------------------------  BUTTON 5 ---------------------------------------->
       
       <div class ='center'>
-        <button type='button' onclick="toggleText5()" class="btn">More stuff</button>
+        <button type='button' onclick="toggleText5()" class="btn">Meet the Non-Dream Team</button>
       </div> <!--end of div class center -->
             
       <div class="interactive" id='interactive5' style='display: none'>
