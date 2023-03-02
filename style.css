@@ -59,7 +59,7 @@ body{
    padding: 2rem ;
    margin: auto;
    width: 50%;
-   font-size: 1.75vw;
+   font-size: 2.25vw;
 }
 
 h2 {
@@ -101,4 +101,11 @@ p2 {
 
 .imgmar{
   margin: 1.5%;
+}
+
+.imgmar1{
+  max-width: 20%;
+  height: auto;
+  margin: 1.5%;
+  float: right;
 }
